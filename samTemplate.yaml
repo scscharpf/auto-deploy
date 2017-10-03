@@ -8,7 +8,7 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs6.1
-      CodeUri: ./
+      CodeUri:
       Events:
         MyTimeApi:
           Type: Api
