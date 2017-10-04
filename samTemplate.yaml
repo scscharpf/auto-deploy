@@ -8,9 +8,7 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs6.1
-      CodeUri:
-        Bucket: !Bucket
-        Key: !CodeZipKey
+      CodeUri: ./
       Events:
         MyTimeApi:
           Type: Api
