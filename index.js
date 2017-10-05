@@ -5,6 +5,6 @@ exports.handler = (event, context, callback) => {
     currentTime.setTimezone("Europe/London");
     callback(null, {
         statusCode: '200',
-        body: 'The time in Exeter is: ' + currentTime.toString(),
+        body: 'The time in Exeter now is: ' + currentTime.toString(),
     });
 };
